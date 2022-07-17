@@ -31,6 +31,25 @@ background-color: #FFFFFF;
     --button-hover: #188CE8;
 }
 
+button {
+display: block;
+margin: 0 auto;
+padding: 10px 32px; 
+cursor: pointer;
+color: var(--white-txt-cl);
+background-color: var(--accent-txt-cl);
+font-family: var(--main-font);
+box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+border: none;
+border-radius: 4px;
+}
+
+img {
+display: block;
+max-width: 100%;
+height: auto;
+}
+
 h2 {
 font-weight: 700;
 font-size: 36px;
@@ -40,11 +59,15 @@ color: var(--title-text-color);
 
 .link {
 text-decoration: none;
+color: inherit;
 }
 
 .list {
 list-style: none;
+padding-left: 0;
+margin: 0;
 }
+
 
 /* COMPONENTS */
 .logo {
@@ -224,3 +247,5 @@ font-size: 16px;
 line-height: 1.88;
 color: var(--text-color);
 }
+
+
