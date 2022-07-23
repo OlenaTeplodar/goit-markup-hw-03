@@ -211,7 +211,7 @@ font-weight: 900;
 
 /* -------FEATURES--------------------------------*/
 .features-section {
-  padding-top: 72px;
+
 }
 .features-list {
     display: flex;
@@ -225,6 +225,7 @@ margin-right: 30px;
 }
 .features-subtitle {
     margin-bottom: 10px;
+    font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
@@ -299,11 +300,13 @@ text-align: center;
 
 /* --------------FOOTER--------------------- */
 .logo-footer {
+  display: block;
   color: var(--white-color);
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  margin-bottom: 20px;
 }
 
 .logo-footer>.logo-accent {
@@ -322,7 +325,7 @@ color: var(--title-text-color-accent);
 }
 
 .footer-list {
-  margin-top: 20px;
+
 }
 
 .footer-item:not(:last-child){
@@ -386,7 +389,6 @@ color: var(--title-text-color-accent);
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    padding-left: 0;
 }
 .cards-title {
   font-weight: 700;
